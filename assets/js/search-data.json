@@ -666,7 +666,7 @@
   },"95": {
     "doc": "How to rollback client",
     "title": "How to rollback the V Rising client to a previous version",
-    "content": "To roll back to the previous version, before Gloomrot, which existing versions of mods will work on this is what you need to do: . | In your steam library right click on V Rising and select Properties | Go to the Betas tab | In the beta selection dropdown choose 0.5.43954_hotfix13 - Client version 0.5.43954. | . ",
+    "content": "To roll back to the previous version, such as before Gloomrot, this is what you need to do: . | In your steam library right click on V Rising and select Properties | Go to the Betas tab | In the beta selection dropdown choose 0.5.43954_hotfix13 - Client version 0.5.43954. | . ",
     "url": "/user/client_rollback.html#how-to-rollback-the-v-rising-client-to-a-previous-version",
     
     "relUrl": "/user/client_rollback.html#how-to-rollback-the-v-rising-client-to-a-previous-version"
@@ -699,244 +699,209 @@
     
     "relUrl": "/editing.html"
   },"100": {
-    "doc": "Migration Guide for Gloomrot",
-    "title": "Migrating plugins for glooomrot",
-    "content": ". | BepInEx: Thunderstore 1.668.5 | Game Libs: nuget | . This version of game libs privately packages the interop changes from above with the already interop’d client assemblies. This avoids the need for the MSBuild task creating the interop and is intended to get developers rolling on release date. Versioning on nuget is now game version+zero padded 4 digit version to clarify updates between game versions. Plugins that used Wetstone: Migration to Bloodstone . ",
-    "url": "/dev/gloomrot.html#migrating-plugins-for-glooomrot",
-    
-    "relUrl": "/dev/gloomrot.html#migrating-plugins-for-glooomrot"
-  },"101": {
-    "doc": "Migration Guide for Gloomrot",
-    "title": ".csproj changes",
-    "content": "&lt;TargetFramework&gt;net6.0&lt;/TargetFramework&gt; ... &lt;PackageReference Include=\"BepInEx.Unity.IL2CPP\" Version=\"6.0.0-be.668\" IncludeAssets=\"compile\" /&gt; &lt;PackageReference Include=\"BepInEx.Core\" Version=\"6.0.0-be.668\" IncludeAssets=\"compile\" /&gt; &lt;PackageReference Include=\"VRising.Unhollowed.Client\" Version=\"0.6.5.*\" /&gt; . ",
-    "url": "/dev/gloomrot.html#csproj-changes",
-    
-    "relUrl": "/dev/gloomrot.html#csproj-changes"
-  },"102": {
-    "doc": "Migration Guide for Gloomrot",
-    "title": "nuget.config",
-    "content": "&lt;?xml version=\"1.0\" encoding=\"utf-8\"?&gt; &lt;configuration&gt; &lt;packageSources&gt; &lt;add key=\"BepInEx\" value=\"https://nuget.bepinex.dev/v3/index.json\" /&gt; &lt;add key=\"Samboy Feed\" value=\"https://nuget.samboy.dev/v3/index.json\" /&gt; &lt;/packageSources&gt; &lt;/configuration&gt; . ",
-    "url": "/dev/gloomrot.html#nugetconfig",
-    
-    "relUrl": "/dev/gloomrot.html#nugetconfig"
-  },"103": {
-    "doc": "Migration Guide for Gloomrot",
-    "title": "Namespace Changes (can find replace)",
-    "content": "using StunLocalization; -&gt; using Stunlock.Localization; . ",
-    "url": "/dev/gloomrot.html#namespace-changes-can-find-replace",
-    
-    "relUrl": "/dev/gloomrot.html#namespace-changes-can-find-replace"
-  },"104": {
-    "doc": "Migration Guide for Gloomrot",
-    "title": "Migration Guide for Gloomrot",
-    "content": " ",
-    "url": "/dev/gloomrot.html",
-    
-    "relUrl": "/dev/gloomrot.html"
-  },"105": {
     "doc": "For Developers",
     "title": "Template",
     "content": "We have a mod template to make getting started simple as dotnet new vrisngmod. You can reference open source and resources for more information for now. ",
     "url": "/dev/#template",
     
     "relUrl": "/dev/#template"
-  },"106": {
+  },"101": {
     "doc": "For Developers",
     "title": "For Developers",
     "content": " ",
     "url": "/dev/",
     
     "relUrl": "/dev/"
-  },"107": {
+  },"102": {
     "doc": "Prefabs",
     "title": "Prefabs",
     "content": "Prefabs are identifers often used in commands or configurations to refer to an object, item, effect, etc. Full list here (warning large file): all prefabs also the remainder of the prefabs with fewer than 10 in a category into remainders prefabs. AB (6799) AI (116) Ability (13) Aim (37) BEH (320) BP (140) Base (44) Biome (11) Blood (32) Braziers (11) Buff (478) CHAR (482) CO (275) Castle (27) Chain (1306) Copper (10) Creature (82) Critter (27) Cursed (24) Curtains (11) Curve (15) DG (354) DT (477) Door (11) Dye (49) Dynamic (438) Dynamics (101) EH (28) Ease (17) Elris (21) Equip (56) Faction (32) Fake (21) GM (32) Garden (34) Gloom (42) Gravestone (12) Graveyard (38) Ground (929) Iron (10) Item (1095) Journal (158) Map (157) Micro (87) Milo (21) Music (22) NPCDeadeye (10) Quarry (21) Random (50) Recipe (599) Remainders (635) Resource (138) Rock (11) SCT (39) Servant (70) Set (86) Silver (27) Snapping (38) Snow (21) Spell (288) Stash (17) Stat (39) Station (21) Storm (12) Sun (12) TM (5928) Tech (323) Transmog (32) Trees (349) UC (330) Unholy (13) VIB (96) VM (291) Vampire (125) Water (108) Weapon (43) Wild (21) ZM (10) ",
     "url": "/prefabs/",
     
     "relUrl": "/prefabs/"
-  },"108": {
+  },"103": {
     "doc": "For Users",
     "title": "For users of mods",
     "content": "This wiki is currently more intended for developers, but here is some FAQ: . | V Rising mods at Thunderstore: https://v-rising.thunderstore.io/ | Discord: V Rising Mod Community Discord | Support: Check out support channels in the discord or in the mod’s readme | . ",
     "url": "/user/#for-users-of-mods",
     
     "relUrl": "/user/#for-users-of-mods"
-  },"109": {
+  },"104": {
     "doc": "For Users",
     "title": "For Users",
     "content": " ",
     "url": "/user/",
     
     "relUrl": "/user/"
-  },"110": {
+  },"105": {
     "doc": "V Rising Mod Wiki",
     "title": "🧛‍♂️ V Rising Mod Wiki",
     "content": "This is a wiki for V Rising mod developers and users. You can add or edit any of these pages on github. You might want to get started by learning how to build a V Rising mod . Join Discord . ",
     "url": "/#%EF%B8%8F-v-rising-mod-wiki",
     
     "relUrl": "/#️-v-rising-mod-wiki"
-  },"111": {
+  },"106": {
     "doc": "V Rising Mod Wiki",
     "title": "V Rising Mod Wiki",
     "content": "1.0 Compatability . BepInEx and Mods now available on Thunderstore here. Check discord for latest information. ",
     "url": "/",
     
     "relUrl": "/"
-  },"112": {
+  },"107": {
     "doc": "Migration Guide for 1.0 Update",
     "title": "Migrating plugins for 1.0",
     "content": ". | BepInEx: Thunderstore 1.691.3 | Game Libs: nuget | . This version of game libs privately packages the interop changes from above with the already interop’d client assemblies. This avoids the need for the MSBuild task creating the interop and is intended to get developers rolling on release date. ",
     "url": "/dev/migration_guide.html#migrating-plugins-for-10",
     
     "relUrl": "/dev/migration_guide.html#migrating-plugins-for-10"
-  },"113": {
+  },"108": {
     "doc": "Migration Guide for 1.0 Update",
     "title": ".csproj changes",
     "content": "&lt;PackageReference Include=\"BepInEx.Unity.IL2CPP\" Version=\"6.0.0-be.691\" IncludeAssets=\"compile\" /&gt; &lt;PackageReference Include=\"BepInEx.Core\" Version=\"6.0.0-be.691\" IncludeAssets=\"compile\" /&gt; &lt;PackageReference Include=\"VRising.Unhollowed.Client\" Version=\"1.0.*\" /&gt; . ",
     "url": "/dev/migration_guide.html#csproj-changes",
     
     "relUrl": "/dev/migration_guide.html#csproj-changes"
-  },"114": {
+  },"109": {
     "doc": "Migration Guide for 1.0 Update",
     "title": "Using Changes",
     "content": "PrefabGUID calls need using Stunlock.Core; . ",
     "url": "/dev/migration_guide.html#using-changes",
     
     "relUrl": "/dev/migration_guide.html#using-changes"
-  },"115": {
+  },"110": {
     "doc": "Migration Guide for 1.0 Update",
     "title": "Namespace Changes (can find replace)",
     "content": ". | FixedString64 -&gt; FixedString64Bytes | GetExistingSystem -&gt; GetExistingSystemManaged | . ",
     "url": "/dev/migration_guide.html#namespace-changes-can-find-replace",
     
     "relUrl": "/dev/migration_guide.html#namespace-changes-can-find-replace"
-  },"116": {
+  },"111": {
     "doc": "Migration Guide for 1.0 Update",
     "title": "Migration Guide for 1.0 Update",
     "content": " ",
     "url": "/dev/migration_guide.html",
     
     "relUrl": "/dev/migration_guide.html"
-  },"117": {
+  },"112": {
     "doc": "Open Source Mods",
     "title": "Open Source Mods",
     "content": "Here's a list of open source mods you can reference, organized by author. As well, you can also find frameworks at the bottom of this page. This is not an extensive list of open source mods available and up-to-date with V Rising. For more check the Thunderstore mod pages for a github link in the top right of their page. ",
     "url": "/dev/open%20source.html",
     
     "relUrl": "/dev/open%20source.html"
-  },"118": {
+  },"113": {
     "doc": "Open Source Mods",
     "title": "odjit",
     "content": "| Mod Name | Description | . | KindredCommands | Commands to expand Administration efforts and provide information | . | KindredSchematics | Commands to build, create, save and load schematics | . | KindredPortals | Expand your V Rising fast travel options. Also Map Icons | . | KindredArenas | Sets PvP protection buff in designated zones | . | KindredLogistics | Logistics system to move items between players and chests | . ",
     "url": "/dev/open%20source.html",
     
     "relUrl": "/dev/open%20source.html"
-  },"119": {
+  },"114": {
     "doc": "Open Source Mods",
     "title": "CrimsonMods (skytech6)",
     "content": "| Mod Name | Description | . | CrimsonFOV | Modifies the client camera field of view | . | CrimsonQuest | Questing System | . | CrimsonHunt | Create battle-pass like rewards for V Blood hunting | . | OfflineRaidGuard | Stops offline raiding, scopes to either clan or player requirements | . | CrimsonClans | Extension to Clans: Hearts per Clan and more! | . | CrimsonChatFilter | Automated Moderation for Server Chat | . | CrimsonBanned | Ban Moderation Tool: Chat, Voice, Server | . | CrimsonFAQ | AutoResponse System | . | CrimsonDropRate | Modifies the item group drop rate, not the item quantity drop | . | AutoBrazier | Automatically turn braziers on/off with day/night cycle | . | CrimsonMoon | A sacraficial alter to praise the moon! Honor it in return for a blood moon! | . | CrimsonLog | Logging for Moderation | . ",
     "url": "/dev/open%20source.html",
     
     "relUrl": "/dev/open%20source.html"
-  },"120": {
+  },"115": {
     "doc": "Open Source Mods",
     "title": "Trodi",
     "content": "| Mod Name | Description | . | BloodyBoss | BloodyBoss is a mod for V Rising that allows you to create VBlood world bosses with random rewards | . | BloodyMerchant | BloodyMerchant is a mod designed for V Rising, offering the capability to create custom in-game merchants | . | BloodyMailBox | The BloodyMailBox mod for VRising allows users to receive messages and receive notifications of new messages even when they are offline | . | BloodyRewards | Rewards System for VRising | . | BloodyShop | Mod to create a store in VRising | . ",
     "url": "/dev/open%20source.html",
     
     "relUrl": "/dev/open%20source.html"
-  },"121": {
+  },"116": {
     "doc": "Open Source Mods",
     "title": "XPRising (chino)",
     "content": "| Mod Name | Description | . | XPRising | Server mod that exchanges item gear level for an XP levelling system | . ",
     "url": "/dev/open%20source.html",
     
     "relUrl": "/dev/open%20source.html"
-  },"122": {
+  },"117": {
     "doc": "Open Source Mods",
     "title": "zfolmt",
     "content": "| Mod Name | Description | . | Bloodcraft | Leveling, expertise, legacies, professions, familiars, classes, quests | . | RaidGuard | Highly discourages teaming during active castle raids with optional alliance features | . | Sanguis | Reward players for being online with optional daily login bonus | . ",
     "url": "/dev/open%20source.html",
     
     "relUrl": "/dev/open%20source.html"
-  },"123": {
+  },"118": {
     "doc": "Open Source Mods",
     "title": "Rianaid",
     "content": "| Mod Name | Description | . | JewelCreator | Server side only mod that allows you to create your own jewels with your chosen skill and skill modifier | . | ShardExtraLife | Server side only mod to change shards params like is: durability, time to break, destroy when broken and drop amount | . | StarterKit | Server side only mod that allows you to issue different starter kits to new vampires | . | MuteChatPlayer | Server side only mod which allows server admins to prohibit a specific player from sending messages to the chat | . ",
     "url": "/dev/open%20source.html",
     
     "relUrl": "/dev/open%20source.html"
-  },"124": {
+  },"119": {
     "doc": "Open Source Mods",
     "title": "Frameworks",
     "content": "Although there are some open source frameworks for V Rising, they are not particularly the best examples of how to make mods. ",
     "url": "/dev/open%20source.html",
     
     "relUrl": "/dev/open%20source.html"
-  },"125": {
+  },"120": {
     "doc": "Open Source Mods",
     "title": "deca",
     "content": "| Mod Name | Description | . | Bloodstone | Plugin framework and general utilities for V Rising mods | . | VampireCommandFramework | Command framework for developers to easily create universal commands for their plugins | . ",
     "url": "/dev/open%20source.html",
     
     "relUrl": "/dev/open%20source.html"
-  },"126": {
+  },"121": {
     "doc": "Open Source Mods",
     "title": "Trodi",
     "content": "| Mod Name | Description | . | BloodyCore | Bloody.Core a help library for mod development | . ",
     "url": "/dev/open%20source.html",
     
     "relUrl": "/dev/open%20source.html"
-  },"127": {
+  },"122": {
     "doc": "Open Source Mods",
     "title": "CrimsonMods (skytech6)",
     "content": "| Mod Name | Description | . | CrimsonSQL | Framework for Interfacing MySQL | . ",
     "url": "/dev/open%20source.html",
     
     "relUrl": "/dev/open%20source.html"
-  },"128": {
+  },"123": {
     "doc": "Resources",
     "title": "Resources for Mod Developers",
     "content": " ",
     "url": "/dev/resources.html#resources-for-mod-developers",
     
     "relUrl": "/dev/resources.html#resources-for-mod-developers"
-  },"129": {
+  },"124": {
     "doc": "Resources",
     "title": "Unity Explorer",
     "content": "Unity Explorer is a tool that allows you to dig into the internal structure of the game while it’s running. Thunderstore Version . UnityExplorer IL2CPP at Thunderstore . Building from source . Unity Explorer can be built from source and installed manually: . Prerequisites . | Install BepInEx in VRising | Install the .NET 6 SDK via manual download or winget (winget install Microsoft.DotNet.SDK.6) | . Build Instructions . | Clone https://github.com/kremnev8/UnityExplorer | In a terminal in the UnityExplorer directory, run dotnet build -c BIE_Cpp_CoreCLR .\\src\\UnityExplorer.csproj. This will build the plugin. | Copy all of the files in the Release\\Release\\UnityExplorer.BepInEx.IL2CPP.CoreCLR subdirectory to the BepInEx plugin directory at &lt;steamapps&gt;\\common\\VRising\\BepInEx\\plugins. | The next time you run the game with BepInEx, the Unity Explorer UI will be overlayed in the game. See https://github.com/kremnev8/UnityExplorer for more information about how to use it. | . ",
     "url": "/dev/resources.html#unity-explorer",
     
     "relUrl": "/dev/resources.html#unity-explorer"
-  },"130": {
+  },"125": {
     "doc": "Resources",
     "title": "Debugging with using Visual Studio (untested)",
     "content": ". | Install Visual Studio Tools for Unity using Visual Studio Installer. You can find the component behind Individual components tab. | Edit doorstop_config.ini (either in VRising or VRising_Server folder, depending on what you are modding) and change debugEnabled to true. | Launch the game (or server) with the plugin. | In Visual Studio goto Debug / Attach Unity Debugger, click to Input IP, enter 127.0.0.1:10000 | . ",
     "url": "/dev/resources.html#debugging-with-using-visual-studio-untested",
     
     "relUrl": "/dev/resources.html#debugging-with-using-visual-studio-untested"
-  },"131": {
+  },"126": {
     "doc": "Resources",
     "title": "Cpp2IL Decompiled Method Dumps",
     "content": "Download Cpp2IL-2022.0.5-Windows.exe into an empty folder, then open a command prompt / powershell / etc. in that folder and run this command: . Cpp2IL-2022.0.5-Windows.exe --analysis-level=4 --game-path=\"{PATH\\TO\\YOUR\\GAME\\FOLDER}\" --exe-name=\"Vrising\" --analyze-all --parallel (change {PATH\\TO\\YOUR\\GAME\\FOLDER} to the full path of your game folder). ",
     "url": "/dev/resources.html#cpp2il-decompiled-method-dumps",
     
     "relUrl": "/dev/resources.html#cpp2il-decompiled-method-dumps"
-  },"132": {
+  },"127": {
     "doc": "Resources",
     "title": "Resources",
     "content": " ",
     "url": "/dev/resources.html",
     
     "relUrl": "/dev/resources.html"
-  },"133": {
+  },"128": {
     "doc": "dotnet new vrisingmod",
     "title": "Template",
     "content": "We have a mod template to make getting started easy . Installation . dotnet new --install VRising.ModTemplate . Example usage . dotnet new vrisingmod -n NameOfYourMod --use-vcf --use-bloodstone --description \"Description of your mod\" . This will get you started with a mod named NameOfYourMod, using Bloodstone and VampireCommandFramework that has a sample server command to uncomment. ",
     "url": "/dev/template.html#template",
     
     "relUrl": "/dev/template.html#template"
-  },"134": {
+  },"129": {
     "doc": "dotnet new vrisingmod",
     "title": "dotnet new vrisingmod",
     "content": " ",
