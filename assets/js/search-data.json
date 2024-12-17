@@ -834,42 +834,42 @@
   },"119": {
     "doc": "Open Source Mods",
     "title": "odjit",
-    "content": "| Mod Name | Description | ——- | ——- | KindredCommands | Commands to expand Administration efforts and provide information | KindredSchematics | Commands to build, create, save and load schematics | KindredPortals | Expand your V Rising fast travel options. Also Map Icons | KindredArenas | Sets PvP protection buff in designated zones | KindredLogistics | Logistics system to move items between players and chests | . ",
+    "content": "| Mod Name | Description |——-|——-| KindredCommands | Commands to expand Administration efforts and provide information | KindredSchematics | Commands to build, create, save and load schematics | KindredPortals | Expand your V Rising fast travel options. Also Map Icons | KindredArenas | Sets PvP protection buff in designated zones | KindredLogistics | Logistics system to move items between players and chests | . ",
     "url": "/VRising-Modding/dev/open%20source.html#odjit",
     
     "relUrl": "/dev/open%20source.html#odjit"
   },"120": {
     "doc": "Open Source Mods",
     "title": "CrimsonMods (skytech6)",
-    "content": "| Mod Name | Description | ——- | ——- | CrimsonFOV | Modifies the client camera field of view | CrimsonQuest | Questing System | CrimsonHunt | Create battle-pass like rewards for V Blood hunting | OfflineRaidGuard | Stops offline raiding, scopes to either clan or player requirements | CrimsonClans | Extension to Clans: Hearts per Clan and more! | CrimsonChatFilter | Automated Moderation for Server Chat | CrimsonBanned | Ban Moderation Tool: Chat, Voice, Server | CrimsonFAQ | AutoResponse System | CrimsonDropRate | Modifies the item group drop rate, not the item quantity drop | AutoBrazier | Automatically turn braziers on/off with day/night cycle | CrimsonMoon | A sacraficial alter to praise the moon! Honor it in return for a blood moon! | CrimsonLog | Logging for Moderation | . ",
+    "content": "| Mod Name | Description |——-|——-| CrimsonFOV | Modifies the client camera field of view | CrimsonQuest | Questing System | CrimsonHunt | Create battle-pass like rewards for V Blood hunting | OfflineRaidGuard | Stops offline raiding, scopes to either clan or player requirements | CrimsonClans | Extension to Clans: Hearts per Clan and more! | CrimsonChatFilter | Automated Moderation for Server Chat | CrimsonBanned | Ban Moderation Tool: Chat, Voice, Server | CrimsonFAQ | AutoResponse System | CrimsonDropRate | Modifies the item group drop rate, not the item quantity drop | AutoBrazier | Automatically turn braziers on/off with day/night cycle | CrimsonMoon | A sacraficial alter to praise the moon! Honor it in return for a blood moon! | CrimsonLog | Logging for Moderation | . ",
     "url": "/VRising-Modding/dev/open%20source.html#crimsonmods-skytech6",
     
     "relUrl": "/dev/open%20source.html#crimsonmods-skytech6"
   },"121": {
     "doc": "Open Source Mods",
     "title": "Trodi",
-    "content": "| Mod Name | Description | ——- | ——- | BloodyBoss | BloodyBoss is a mod for V Rising that allows you to create VBlood world bosses with random rewards | BloodyMerchant | BloodyMerchant is a mod designed for V Rising, offering the capability to create custom in-game merchants | BloodyMailBox | The BloodyMailBox mod for VRising allows users to receive messages and receive notifications of new messages even when they are offline | BloodyRewards | Rewards System for VRising | BloodyShop | Mod to create a store in VRising | . ",
+    "content": "| Mod Name | Description |——-|——-| BloodyBoss | BloodyBoss is a mod for V Rising that allows you to create VBlood world bosses with random rewards | BloodyMerchant | BloodyMerchant is a mod designed for V Rising, offering the capability to create custom in-game merchants | BloodyMailBox | The BloodyMailBox mod for VRising allows users to receive messages and receive notifications of new messages even when they are offline | BloodyRewards | Rewards System for VRising | BloodyShop | Mod to create a store in VRising | . ",
     "url": "/VRising-Modding/dev/open%20source.html#trodi",
     
     "relUrl": "/dev/open%20source.html#trodi"
   },"122": {
     "doc": "Open Source Mods",
     "title": "XPRising (chino)",
-    "content": "| Mod Name | Description | ——- | ——- | XPRising | Server mod that exchanges item gear level for an XP levelling system | . ",
+    "content": "| Mod Name | Description |——-|——-| XPRising | Server mod that exchanges item gear level for an XP levelling system | . ",
     "url": "/VRising-Modding/dev/open%20source.html#xprising-chino",
     
     "relUrl": "/dev/open%20source.html#xprising-chino"
   },"123": {
     "doc": "Open Source Mods",
     "title": "zfolmt",
-    "content": "| Mod Name | Description | ——- | ——- | Bloodcraft | Leveling, expertise, legacies, professions, familiars, classes, quests | RaidGuard | Highly discourages teaming during active castle raids with optional alliance features | Sanguis | Reward players for being online with optional daily login bonus | . ",
+    "content": "| Mod Name | Description |——-|——-| Bloodcraft | Leveling, expertise, legacies, professions, familiars, classes, quests | RaidGuard | Highly discourages teaming during active castle raids with optional alliance features | Sanguis | Reward players for being online with optional daily login bonus | . ",
     "url": "/VRising-Modding/dev/open%20source.html#zfolmt",
     
     "relUrl": "/dev/open%20source.html#zfolmt"
   },"124": {
     "doc": "Open Source Mods",
     "title": "Rianaid",
-    "content": "| Mod Name | Description | ——- | ——- | JewelCreator | Server side only mod that allows you to create your own jewels with your chosen skill and skill modifier | ShardExtraLife | Server side only mod to change shards params like is: durability, time to break, destroy when broken and drop amount | StarterKit | Server side only mod that allows you to issue different starter kits to new vampires | MuteChatPlayer | Server side only mod which allows server admins to prohibit a specific player from sending messages to the chat | . ",
+    "content": "| Mod Name | Description |——-|——-| JewelCreator | Server side only mod that allows you to create your own jewels with your chosen skill and skill modifier | ShardExtraLife | Server side only mod to change shards params like is: durability, time to break, destroy when broken and drop amount | StarterKit | Server side only mod that allows you to issue different starter kits to new vampires | MuteChatPlayer | Server side only mod which allows server admins to prohibit a specific player from sending messages to the chat | . ",
     "url": "/VRising-Modding/dev/open%20source.html#rianaid",
     
     "relUrl": "/dev/open%20source.html#rianaid"
@@ -883,21 +883,21 @@
   },"126": {
     "doc": "Open Source Mods",
     "title": "deca",
-    "content": "| Mod Name | Description | ——- | ——- | Bloodstone | Plugin framework and general utilities for V Rising mods | VampireCommandFramework | Command framework for developers to easily create universal commands for their plugins | . ",
+    "content": "| Mod Name | Description |——-|——-| Bloodstone | Plugin framework and general utilities for V Rising mods | VampireCommandFramework | Command framework for developers to easily create universal commands for their plugins | . ",
     "url": "/VRising-Modding/dev/open%20source.html#deca",
     
     "relUrl": "/dev/open%20source.html#deca"
   },"127": {
     "doc": "Open Source Mods",
     "title": "Trodi",
-    "content": "| Mod Name | Description | ——- | ——- | BloodyCore | Bloody.Core a help library for mod development | . ",
+    "content": "| Mod Name | Description |——-|——-| BloodyCore | Bloody.Core a help library for mod development | . ",
     "url": "/VRising-Modding/dev/open%20source.html#trodi-1",
     
     "relUrl": "/dev/open%20source.html#trodi-1"
   },"128": {
     "doc": "Open Source Mods",
     "title": "CrimsonMods (skytech6)",
-    "content": "| Mod Name | Description | ——- | ——- | CrimsonSQL | Framework for Interfacing MySQL | . ",
+    "content": "| Mod Name | Description |——-|——-| CrimsonSQL | Framework for Interfacing MySQL | . ",
     "url": "/VRising-Modding/dev/open%20source.html#crimsonmods-skytech6-1",
     
     "relUrl": "/dev/open%20source.html#crimsonmods-skytech6-1"
