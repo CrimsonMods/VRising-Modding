@@ -13,6 +13,9 @@ permissions:
 jobs:
   github-pages:
     runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - uses: actions/checkout@v3
       
@@ -22,11 +25,17 @@ jobs:
           ruby-version: '3.1'
           bundler-cache: true
           
+      - name: Setup Pages
+        uses: actions/configure-pages@v3
+          
       - name: Build site
         run: bundle exec jekyll build
+        env:
+          JEKYLL_ENV: production
         
-      - name: Deploy
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./_site
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v1
+        
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v2
