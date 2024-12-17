@@ -1,3 +1,6 @@
+url: "https://vrising.wiki"
+baseurl: ""
+
 repository: crimsonmods/vrising-modding
 
 collections:
