@@ -5,7 +5,7 @@ parent: For Users
 
 # How to rollback the V Rising client to a previous version
 
-To roll back to the previous version, before Gloomrot, which existing versions of mods will work on this is what you need to do:
+To roll back to the previous version, such as before Gloomrot, this is what you need to do:
 
 1. In your steam library right click on V Rising and select Properties
 2. Go to the Betas tab
