@@ -4,7 +4,7 @@ nav_order: 1
 ---
 
 {: .grey-lt-title }
-> 1.0 Compatability - May 26th
+> 1.0 Compatability
 >
 > BepInEx and Mods now available on Thunderstore [here](https://thunderstore.io/c/v-rising/p/BepInEx/BepInExPack_V_Rising/).
 >
