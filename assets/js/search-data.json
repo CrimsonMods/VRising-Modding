@@ -854,54 +854,124 @@
     "relUrl": "/dev/migration_guide.html"
   },"122": {
     "doc": "Open Source Mods",
+    "title": "odjit",
+    "content": "| Mod Name | Description | — | — | KindredCommands | Commands to expand Administration efforts and provide information | KindredSchematics | Commands to build, create, save and load schematics | KindredPortals | Expand your V Rising fast travel options. Also Map Icons | KindredArenas | Sets PvP protection buff in designated zones | KindredLogistics | Logistics system to move items between players and chests | . ",
+    "url": "/VRising-Modding/dev/open%20source.html#odjit",
+    
+    "relUrl": "/dev/open%20source.html#odjit"
+  },"123": {
+    "doc": "Open Source Mods",
+    "title": "CrimsonMods (skytech6)",
+    "content": "| Mod Name | Description | — | — | CrimsonFOV | Modifies the client camera field of view | CrimsonQuest | Questing System | CrimsonHunt | Create battle-pass like rewards for V Blood hunting | OfflineRaidGuard | Stops offline raiding, scopes to either clan or player requirements | CrimsonClans | Extension to Clans: Hearts per Clan and more! | CrimsonChatFilter | Automated Moderation for Server Chat | CrimsonBanned | Ban Moderation Tool: Chat, Voice, Server | CrimsonFAQ | AutoResponse System | CrimsonDropRate | Modifies the item group drop rate, not the item quantity drop | AutoBrazier | Automatically turn braziers on/off with day/night cycle | CrimsonMoon | A sacraficial alter to praise the moon! Honor it in return for a blood moon! | CrimsonLog | Logging for Moderation | . ",
+    "url": "/VRising-Modding/dev/open%20source.html#crimsonmods-skytech6",
+    
+    "relUrl": "/dev/open%20source.html#crimsonmods-skytech6"
+  },"124": {
+    "doc": "Open Source Mods",
+    "title": "Trodi",
+    "content": "| Mod Name | Description | — | — | BloodyBoss | BloodyBoss is a mod for V Rising that allows you to create VBlood world bosses with random rewards | BloodyMerchant | BloodyMerchant is a mod designed for V Rising, offering the capability to create custom in-game merchants | BloodyMailBox | The BloodyMailBox mod for VRising allows users to receive messages and receive notifications of new messages even when they are offline | BloodyRewards | Rewards System for VRising | BloodyShop | Mod to create a store in VRising | . ",
+    "url": "/VRising-Modding/dev/open%20source.html#trodi",
+    
+    "relUrl": "/dev/open%20source.html#trodi"
+  },"125": {
+    "doc": "Open Source Mods",
+    "title": "XPRising (chino)",
+    "content": "| Mod Name | Description | — | — | XPRising | Server mod that exchanges item gear level for an XP levelling system | . ",
+    "url": "/VRising-Modding/dev/open%20source.html#xprising-chino",
+    
+    "relUrl": "/dev/open%20source.html#xprising-chino"
+  },"126": {
+    "doc": "Open Source Mods",
+    "title": "zfolmt",
+    "content": "| Mod Name | Description | — | — | Bloodcraft | Leveling, expertise, legacies, professions, familiars, classes, quests | RaidGuard | Highly discourages teaming during active castle raids with optional alliance features | Sanguis | Reward players for being online with optional daily login bonus | . ",
+    "url": "/VRising-Modding/dev/open%20source.html#zfolmt",
+    
+    "relUrl": "/dev/open%20source.html#zfolmt"
+  },"127": {
+    "doc": "Open Source Mods",
+    "title": "Rianaid",
+    "content": "| Mod Name | Description | — | — | JewelCreator | Server side only mod that allows you to create your own jewels with your chosen skill and skill modifier | ShardExtraLife | Server side only mod to change shards params like is: durability, time to break, destroy when broken and drop amount | StarterKit | Server side only mod that allows you to issue different starter kits to new vampires | MuteChatPlayer | Server side only mod which allows server admins to prohibit a specific player from sending messages to the chat | . ",
+    "url": "/VRising-Modding/dev/open%20source.html#rianaid",
+    
+    "relUrl": "/dev/open%20source.html#rianaid"
+  },"128": {
+    "doc": "Open Source Mods",
+    "title": "Frameworks",
+    "content": "Although there are some open source frameworks for V Rising, they are not particularly the best examples of how to make mods. ",
+    "url": "/VRising-Modding/dev/open%20source.html#frameworks",
+    
+    "relUrl": "/dev/open%20source.html#frameworks"
+  },"129": {
+    "doc": "Open Source Mods",
+    "title": "deca",
+    "content": "| Mod Name | Description | — | — | Bloodstone | Plugin framework and general utilities for V Rising mods | VampireCommandFramework | Command framework for developers to easily create universal commands for their plugins | . ",
+    "url": "/VRising-Modding/dev/open%20source.html#deca",
+    
+    "relUrl": "/dev/open%20source.html#deca"
+  },"130": {
+    "doc": "Open Source Mods",
+    "title": "Trodi",
+    "content": "| Mod Name | Description | — | — | BloodyCore | Bloody.Core a help library for mod development | . ",
+    "url": "/VRising-Modding/dev/open%20source.html#trodi-1",
+    
+    "relUrl": "/dev/open%20source.html#trodi-1"
+  },"131": {
+    "doc": "Open Source Mods",
+    "title": "CrimsonMods (skytech6)",
+    "content": "| Mod Name | Description | — | — | CrimsonSQL | Framework for Interfacing MySQL | . ",
+    "url": "/VRising-Modding/dev/open%20source.html#crimsonmods-skytech6-1",
+    
+    "relUrl": "/dev/open%20source.html#crimsonmods-skytech6-1"
+  },"132": {
+    "doc": "Open Source Mods",
     "title": "Open Source Mods",
-    "content": "Here’s a list of open source mods you can reference. If you would like to get to the mods Repository you can click on the mods name to go to it. | Mod Name | Author | Description | . | Wetstone | molenzwiebel | Wetstone is a plugin API for creating mods for V Rising. If you are a mod developer, using Wetstone allows you to take advantage of tools like hot reloading, easy hooks and extensions, and user-friendly configuration. | . | RPGMods | Kaltharos | Server only mod for RPG system which also include ChatCommands with bug fixes. | . | Lead A Horse To Water | deca | A V-Rising mod that lets your horses drink water from wells. | . | VMods | WhiteFang5 | VMods is a selection of Mods for V-Rising made using a common/shared codebase that all follow the same coding principals and in-game usage. | . | AutoCloseDoors | Kaltharos | Server only mod for Auto Close Doors. | . | Random Encounters | Adain | This server side mod spawns a random NPC near a random online player at random intervals, and the player wins a random item reward if the NPC is killed within the given time limit. | . | AdminSpy | KinetsuDEV | Server side only mod to notify users about admin actions. | . | HuntControl | denoflionsx | V Rising mod that makes missions progress when the game is closed | . | Dueller | Paps | Server only mod for Duel focused server. | . | NetEvents | AviiNL | The end goal of this project is to wrap every network event in an easy to use C# Event API. | . | SkanksAIO | Paps | AIO mod by Skanks. | . | QuickStash | Elmegaard | A mod that uses Compulsively Count on all nearby stashes with 1 click. | . | VampireCommandFramework | deca | Framework for VRising mods to Easily build chat commands. | . | VRising Game Data | Adain | A work in progress game data framework and general utilities for V Rising mods. | . | Track Crafts | armanckeser | A client side plugin which adds the ability to pin multiple crafting recipes. | . | ChatCommands | NopeyBoi | Server side mod with various chat commands. | . | Sleeping-Speeds-Time | Blargerist | A V Rising server mod that makes time pass faster while sleeping in a coffin. | . | V Rising Troublemaker | AviiNL | Rcon commands for Troublemaker Twitch extension. | . | QuickBrazier | harminded | Auto turn on/off Braziers based on time of day. | . | VBloodKills | syllabicat | Sends system message when killing VBlood bosses. | . | Modern Camera | v-rising | Makes the camera more like an action MMO camera. | . | PPRising | vildaberper | A collection of QoL-features. | . | V Rising Server Manager | Lacyway | Tool to install, update and run a V Rising Server on Windows OS. Also includes a game and server settings editor. | . | Guardian 2 | jokeruarwentto | A simple whitelist system to let you choose who can connect on your server. | . | PopupTotals | matt-harp | A mod to show the total amount of an item in your inventory while collecting resources. | . | HideInterface | jokeruarwentto | Toggle the game interface with F11 key, now with a keybinding through in-game settings to set your own custom key! | . | RemoveVignette | iZastic | Removes Vignette. | . | AutoReady | iZastic | Automatically skips the ready screen when loaded. | . | ChatLineColorMod | Trodi | A client mod that adds channel name and changes the color of the chat input text as the color of the channel where you are typing. It also replaces text strings with emojis. | . | Notify | Trodi | A mod that notifies when a user connects or disconnects from the server, new user connect from the server, when a player kills a VBlood boss, Message of the day system and auto announce system that runs every certain interval. | . | ServerLaunchFix | MythicManiac | Enable mods for single player and host &amp; play. | . | HideUiMod | Trodi | Client side mod to hide the game UI. | . | CasualSiege | Kaltharos | A server side mod to protect offline players from being sieged. | . | Shut The Fort Up | deca | Opens or closes all your doors and/or windows with a single command. | . | BloodyShop | Trodi | Mod to create a store in V Rising (with optional client UI). | . | WordBanisher | Paps | Banish Up to Ten Words. | . ",
+    "content": "Here’s a list of open source mods you can reference, organized by author. As well, you can also find frameworks at the bottom of this page. This is not an extensive list of open source mods available and up-to-date with V Rising. For more check the Thunderstore mod pages for a github link in the top right of their page. ",
     "url": "/VRising-Modding/dev/open%20source.html",
     
     "relUrl": "/dev/open%20source.html"
-  },"123": {
+  },"133": {
     "doc": "Resources",
     "title": "Resources for Mod Developers",
     "content": " ",
     "url": "/VRising-Modding/dev/resources.html#resources-for-mod-developers",
     
     "relUrl": "/dev/resources.html#resources-for-mod-developers"
-  },"124": {
+  },"134": {
     "doc": "Resources",
     "title": "Unity Explorer",
     "content": "Unity Explorer is a tool that allows you to dig into the internal structure of the game while it’s running. Thunderstore Version . UnityExplorer IL2CPP at Thunderstore . Building from source . Unity Explorer can be built from source and installed manually: . Prerequisites . | Install BepInEx in VRising | Install the .NET 6 SDK via manual download or winget (winget install Microsoft.DotNet.SDK.6) | . Build Instructions . | Clone https://github.com/kremnev8/UnityExplorer | In a terminal in the UnityExplorer directory, run dotnet build -c BIE_Cpp_CoreCLR .\\src\\UnityExplorer.csproj. This will build the plugin. | Copy all of the files in the Release\\Release\\UnityExplorer.BepInEx.IL2CPP.CoreCLR subdirectory to the BepInEx plugin directory at &lt;steamapps&gt;\\common\\VRising\\BepInEx\\plugins. | The next time you run the game with BepInEx, the Unity Explorer UI will be overlayed in the game. See https://github.com/kremnev8/UnityExplorer for more information about how to use it. | . ",
     "url": "/VRising-Modding/dev/resources.html#unity-explorer",
     
     "relUrl": "/dev/resources.html#unity-explorer"
-  },"125": {
+  },"135": {
     "doc": "Resources",
     "title": "Debugging with using Visual Studio (untested)",
     "content": ". | Install Visual Studio Tools for Unity using Visual Studio Installer. You can find the component behind Individual components tab. | Edit doorstop_config.ini (either in VRising or VRising_Server folder, depending on what you are modding) and change debugEnabled to true. | Launch the game (or server) with the plugin. | In Visual Studio goto Debug / Attach Unity Debugger, click to Input IP, enter 127.0.0.1:10000 | . ",
     "url": "/VRising-Modding/dev/resources.html#debugging-with-using-visual-studio-untested",
     
     "relUrl": "/dev/resources.html#debugging-with-using-visual-studio-untested"
-  },"126": {
+  },"136": {
     "doc": "Resources",
     "title": "Cpp2IL Decompiled Method Dumps",
     "content": "Download Cpp2IL-2022.0.5-Windows.exe into an empty folder, then open a command prompt / powershell / etc. in that folder and run this command: . Cpp2IL-2022.0.5-Windows.exe --analysis-level=4 --game-path=\"{PATH\\TO\\YOUR\\GAME\\FOLDER}\" --exe-name=\"Vrising\" --analyze-all --parallel (change {PATH\\TO\\YOUR\\GAME\\FOLDER} to the full path of your game folder). ",
     "url": "/VRising-Modding/dev/resources.html#cpp2il-decompiled-method-dumps",
     
     "relUrl": "/dev/resources.html#cpp2il-decompiled-method-dumps"
-  },"127": {
+  },"137": {
     "doc": "Resources",
     "title": "Resources",
     "content": " ",
     "url": "/VRising-Modding/dev/resources.html",
     
     "relUrl": "/dev/resources.html"
-  },"128": {
+  },"138": {
     "doc": "dotnet new vrisingmod",
     "title": "Template",
     "content": "We have a mod template to make getting started easy . Installation . dotnet new --install VRising.ModTemplate . Example usage . dotnet new vrisingmod -n NameOfYourMod --use-vcf --use-bloodstone --description \"Description of your mod\" . This will get you started with a mod named NameOfYourMod, using Bloodstone and VampireCommandFramework that has a sample server command to uncomment. ",
     "url": "/VRising-Modding/dev/template.html#template",
     
     "relUrl": "/dev/template.html#template"
-  },"129": {
+  },"139": {
     "doc": "dotnet new vrisingmod",
     "title": "dotnet new vrisingmod",
     "content": " ",
