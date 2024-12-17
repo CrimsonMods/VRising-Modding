@@ -6,11 +6,7 @@ nav_order: 1
 {: .grey-lt-title }
 > 1.0 Compatability - May 26th
 >
-> BepInEx now available on Thunderstore [here](https://thunderstore.io/c/v-rising/p/BepInEx/BepInExPack_V_Rising/).
->
-> Frameworks and mods to follow!
-> 
-> We have experimental builds for developers/testers [here](/user/game_update.html).
+> BepInEx and Mods now available on Thunderstore [here](https://thunderstore.io/c/v-rising/p/BepInEx/BepInExPack_V_Rising/).
 >
 > Check [discord](https://vrisingmods.com/discord) for latest information.
 
