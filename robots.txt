@@ -1,1 +1,1 @@
-Sitemap: http://vrising.wiki/sitemap.xml
+Sitemap: https://crimsonmods.github.io/VRising-Modding/sitemap.xml
