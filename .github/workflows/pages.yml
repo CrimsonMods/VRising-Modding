@@ -38,9 +38,8 @@ jobs:
         env:
           JEKYLL_ENV: production
         
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v1
-        
-      - name: Deploy site to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v2
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./_site
