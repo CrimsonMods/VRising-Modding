@@ -533,7 +533,7 @@
   },"76": {
     "doc": "Using Server Mods in-game",
     "title": "How to use Server Mods In-Game",
-    "content": " ",
+    "content": ". | Adding to the AdminList | Authorizing yourself as an Admin in-game | Enabling Console | Using the Console in Game | Using Native V Rising Commands (Console) | Using MOD Commands (Chatbox) | . ",
     "url": "/user/Using_Server_Mods.html#how-to-use-server-mods-in-game",
     
     "relUrl": "/user/Using_Server_Mods.html#how-to-use-server-mods-in-game"
@@ -547,317 +547,408 @@
   },"78": {
     "doc": "Using Server Mods in-game",
     "title": "Authorizing yourself as an Admin in-game",
-    "content": "Once in game you will need to auhtorize yourself as an admin. Enabling Console . First you will need to enable the use of the console in game. Hit Esc and in the menu, go to Options. Once here, stay under the General tab and look at the options. You should see a Console Enabled option about 8 rows down. Make sure the box is ticked as indicated. Using the Console in Game . Once you are back to the game, you can make the console appear by pressing the ~ button. (Usually located directly above TAB) . Once the console has dropped down, you can type in Adminauth to authorize yourself as an admin. You will need to do this every time you log in. If you are successful, you will see this message in the chatbox: . Using Native V Rising Commands (Console) . Much like authorizing yourself, you may enter commands in this console in order to use native V Rising commands. You can see a list of commands by typing in list. (Take care it doesn’t autocomplete to listusers) Commands in the console do not have a prefix as part of the command. (No slashes and the like) . Using MOD Commands (Chatbox) . Mod commands however, are not entered in the console. They must be entered in the chat. If you have VCF installed, you can check this by typing .help Most mods ustilize the . prefix before their commands, as they use VCF. If they are not using VCF it could be other symbols. You should get a response like: . ",
+    "content": "Once in game you will need to auhtorize yourself as an admin. ",
     "url": "/user/Using_Server_Mods.html#authorizing-yourself-as-an-admin-in-game",
     
     "relUrl": "/user/Using_Server_Mods.html#authorizing-yourself-as-an-admin-in-game"
   },"79": {
+    "doc": "Using Server Mods in-game",
+    "title": "Enabling Console",
+    "content": "First you will need to enable the use of the console in game. Hit Esc and in the menu, go to Options. Once here, stay under the General tab and look at the options. You should see a Console Enabled option about 8 rows down. Make sure the box is ticked as indicated. ",
+    "url": "/user/Using_Server_Mods.html#enabling-console",
+    
+    "relUrl": "/user/Using_Server_Mods.html#enabling-console"
+  },"80": {
+    "doc": "Using Server Mods in-game",
+    "title": "Using the Console in Game",
+    "content": "Once you are back to the game, you can make the console appear by pressing the ~ button. (Usually located directly above TAB) . Once the console has dropped down, you can type in Adminauth to authorize yourself as an admin. You will need to do this every time you log in. If you are successful, you will see this message in the chatbox: . ",
+    "url": "/user/Using_Server_Mods.html#using-the-console-in-game",
+    
+    "relUrl": "/user/Using_Server_Mods.html#using-the-console-in-game"
+  },"81": {
+    "doc": "Using Server Mods in-game",
+    "title": "Using Native V Rising Commands (Console)",
+    "content": "Much like authorizing yourself, you may enter commands in this console in order to use native V Rising commands. You can see a list of commands by typing in list. (Take care it doesn’t autocomplete to listusers) Commands in the console do not have a prefix as part of the command. (No slashes and the like) . ",
+    "url": "/user/Using_Server_Mods.html#using-native-v-rising-commands-console",
+    
+    "relUrl": "/user/Using_Server_Mods.html#using-native-v-rising-commands-console"
+  },"82": {
+    "doc": "Using Server Mods in-game",
+    "title": "Using MOD Commands (Chatbox)",
+    "content": "Mod commands however, are not entered in the console. They must be entered in the chat. If you have VCF installed, you can check this by typing .help Most mods ustilize the . prefix before their commands, as they use VCF. If they are not using VCF it could be other symbols. You should get a response like: . ",
+    "url": "/user/Using_Server_Mods.html#using-mod-commands-chatbox",
+    
+    "relUrl": "/user/Using_Server_Mods.html#using-mod-commands-chatbox"
+  },"83": {
     "doc": "Using Server Mods in-game",
     "title": "Using Server Mods in-game",
     "content": " ",
     "url": "/user/Using_Server_Mods.html",
     
     "relUrl": "/user/Using_Server_Mods.html"
-  },"80": {
+  },"84": {
     "doc": "VIB",
     "title": "VIB",
     "content": " ",
     "url": "/prefabs/VIB.html",
     
     "relUrl": "/prefabs/VIB.html"
-  },"81": {
+  },"85": {
     "doc": "VM",
     "title": "VM",
     "content": " ",
     "url": "/prefabs/VM.html",
     
     "relUrl": "/prefabs/VM.html"
-  },"82": {
+  },"86": {
     "doc": "Vampire",
     "title": "Vampire",
     "content": " ",
     "url": "/prefabs/Vampire.html",
     
     "relUrl": "/prefabs/Vampire.html"
-  },"83": {
+  },"87": {
     "doc": "Water",
     "title": "Water",
     "content": " ",
     "url": "/prefabs/Water.html",
     
     "relUrl": "/prefabs/Water.html"
-  },"84": {
+  },"88": {
     "doc": "Weapon",
     "title": "Weapon",
     "content": " ",
     "url": "/prefabs/Weapon.html",
     
     "relUrl": "/prefabs/Weapon.html"
-  },"85": {
+  },"89": {
     "doc": "Wild",
     "title": "Wild",
     "content": " ",
     "url": "/prefabs/Wild.html",
     
     "relUrl": "/prefabs/Wild.html"
-  },"86": {
+  },"90": {
     "doc": "ZM",
     "title": "ZM",
     "content": " ",
     "url": "/prefabs/ZM.html",
     
     "relUrl": "/prefabs/ZM.html"
-  },"87": {
+  },"91": {
     "doc": "Manual BepInEx Installation",
     "title": "Manually installing BepInEx",
     "content": "If you’re manually installing mods, you need to install BepInEx, you can find it on thunderstore. This page guides you through how to unzip the contents and put them in the correct location. Inside BepInExPack_V_Rising_1.691.3.zip . You will see a folder called BepInExPack__Rising, we will be moving the contents from folder, not this folder itself: . Inside BepInExPack_VRising: . BepInEx/ dotnet/ .doorstop_version doorstop_config.ini winhttp.dll . ",
     "url": "/user/bepinex_install.html#manually-installing-bepinex",
     
     "relUrl": "/user/bepinex_install.html#manually-installing-bepinex"
-  },"88": {
+  },"92": {
     "doc": "Manual BepInEx Installation",
     "title": "Destination",
     "content": "You will be copying all of these files out to the destination game folder. For Clients . Find your game folder, it’s typically something like C:\\Program Files (x86)\\Steam\\steamapps\\common\\VRising, but you can open this folder precisely by right clicking on the game in steam &gt; manage &gt; browse game files. Client correctly installed . Windows Dedicated Server . Same as above, except the folder is VRisingDedicatedServer . Linux Hosted Server corrected installed . ",
     "url": "/user/bepinex_install.html#destination",
     
     "relUrl": "/user/bepinex_install.html#destination"
-  },"89": {
+  },"93": {
     "doc": "Manual BepInEx Installation",
     "title": "Start game/server after moving all files",
     "content": "This will take a few minutes while BepInEx prepares to load mods for the game. This process will happen on clean installs and game updates. You can tell if it’s in the correct place because you will have a BepInEx/LogOutput.log generated and if your running a game client you will see a console Window also open with the BepInEx output. ",
     "url": "/user/bepinex_install.html#start-gameserver-after-moving-all-files",
     
     "relUrl": "/user/bepinex_install.html#start-gameserver-after-moving-all-files"
-  },"90": {
+  },"94": {
     "doc": "Manual BepInEx Installation",
     "title": "Manual BepInEx Installation",
     "content": " ",
     "url": "/user/bepinex_install.html",
     
     "relUrl": "/user/bepinex_install.html"
-  },"91": {
+  },"95": {
     "doc": "Wetstone -> Bloodstone",
     "title": "Bloodstone",
     "content": "Bloodstone is a successor to Wetstone for Gloomrot and beyond. It’s available on https://www.nuget.org/packages/VRising.Bloodstone/ and https://github.com/decaprime/Bloodstone . It’s actively maintained and automated through CI/CD. Soon it will contain VampireCommandFramework and other ECS utilities to make getting started easier with a single file Bloodstone.dll dependency. ",
     "url": "/dev/bloodstone.html#bloodstone",
     
     "relUrl": "/dev/bloodstone.html#bloodstone"
-  },"92": {
+  },"96": {
     "doc": "Wetstone -> Bloodstone",
     "title": "Installation",
     "content": "CLI . dotnet add package VRising.Bloodstone . or . csproj . &lt;PackageReference Include=\"VRising.Bloodstone\" Version=\"0.1.1\" /&gt; . ",
     "url": "/dev/bloodstone.html#installation",
     
     "relUrl": "/dev/bloodstone.html#installation"
-  },"93": {
+  },"97": {
     "doc": "Wetstone -> Bloodstone",
     "title": "Migration from Wetstone",
     "content": "Follow installation steps and either way make sure to clear out any Wetstone references you have in your project. Namespace changes . You can safely find and replace to do this update, or do it manually: Wetstone -&gt; Bloodstone . Package Id Change . xyz.molenzwiebel.Wetstone -&gt; gg.deca.Bloodstone . ",
     "url": "/dev/bloodstone.html#migration-from-wetstone",
     
     "relUrl": "/dev/bloodstone.html#migration-from-wetstone"
-  },"94": {
+  },"98": {
     "doc": "Wetstone -> Bloodstone",
     "title": "Wetstone -> Bloodstone",
     "content": ". ",
     "url": "/dev/bloodstone.html",
     
     "relUrl": "/dev/bloodstone.html"
-  },"95": {
+  },"99": {
     "doc": "How to rollback client",
     "title": "How to rollback the V Rising client to a previous version",
-    "content": "To roll back to the previous version, such as before Gloomrot, this is what you need to do: . | In your steam library right click on V Rising and select Properties | Go to the Betas tab | In the beta selection dropdown choose 0.5.43954_hotfix13 - Client version 0.5.43954. | . ",
+    "content": "To roll back to the previous version, before 1.0, this is what you need to do: . | In your steam library right click on V Rising and select Properties | Go to the Betas tab | In the beta selection dropdown choose the version you desire. | For Initial release, choose: 0.5.43954_hotfix13 - Client version 0.5.43954. | For Gloomrot, choose: 0.6.5.57575_hotfix6 - Client version: 0.6.5.57575 | . | . ",
     "url": "/user/client_rollback.html#how-to-rollback-the-v-rising-client-to-a-previous-version",
     
     "relUrl": "/user/client_rollback.html#how-to-rollback-the-v-rising-client-to-a-previous-version"
-  },"96": {
+  },"100": {
+    "doc": "How to rollback client",
+    "title": "Mods for Prior Versions",
+    "content": "You will need to browse Thunderstore for mods that were compatible with those versions. To see if a mod has a compatible version, check its Versions tab at the top, and look for approprite dates for the prior versions. Some mods may still have the gloomrot update tag, and others may not. | For initial release, no versions beyond May 16th 2023 | For Gloomrot, after the above date and no versions beyond May 7th 2024 | . ",
+    "url": "/user/client_rollback.html#mods-for-prior-versions",
+    
+    "relUrl": "/user/client_rollback.html#mods-for-prior-versions"
+  },"101": {
     "doc": "How to rollback client",
     "title": "How to rollback client",
     "content": " ",
     "url": "/user/client_rollback.html",
     
     "relUrl": "/user/client_rollback.html"
-  },"97": {
+  },"102": {
     "doc": "Wiki Editing 🤔",
     "title": "How to create and edit files",
     "content": "This wiki is built with markdown and hosted on GitHub. All pages have an Edit this page on GitHub link at the bottom. You make your changes in markdown and then submit them to be merged into the website. For new files click the Add new page link in the sidebar, . | Update the FILE_NAME and path above the editor, you can backspace to change directory if appropriate | Set the title and parent at top of this doc, this metadata controls the side navigation | You can find more info: https://just-the-docs.github.io/just-the-docs/docs/navigation-structure/ | After you’re done, scroll down and please start a pull request 😊 | . If you see something that can be contributed, please don’t let worry about format or correctness stop you, know there’s a review process and everything can be undone. If you’ve never used GitHub before, this is a good chance to acclimate. ",
     "url": "/editing.html#how-to-create-and-edit-files",
     
     "relUrl": "/editing.html#how-to-create-and-edit-files"
-  },"98": {
+  },"103": {
     "doc": "Wiki Editing 🤔",
     "title": "Including Screenshots",
     "content": "You can just paste images while inside the GitHub markdown editor and it will upload them and create the markup. These images work on the deployed wiki. Please only use images cropped to the subject area (e.g. Windows: alt+print screen - capture window, Win+Shift+s - Snipping Tool). ",
     "url": "/editing.html#including-screenshots",
     
     "relUrl": "/editing.html#including-screenshots"
-  },"99": {
+  },"104": {
     "doc": "Wiki Editing 🤔",
     "title": "Wiki Editing 🤔",
     "content": " ",
     "url": "/editing.html",
     
     "relUrl": "/editing.html"
-  },"100": {
+  },"105": {
     "doc": "For Developers",
     "title": "Template",
     "content": "We have a mod template to make getting started simple as dotnet new vrisngmod. You can reference open source and resources for more information for now. ",
     "url": "/dev/#template",
     
     "relUrl": "/dev/#template"
-  },"101": {
+  },"106": {
     "doc": "For Developers",
     "title": "For Developers",
     "content": " ",
     "url": "/dev/",
     
     "relUrl": "/dev/"
-  },"102": {
+  },"107": {
     "doc": "Prefabs",
     "title": "Prefabs",
     "content": "Prefabs are identifers often used in commands or configurations to refer to an object, item, effect, etc. Full list here (warning large file): all prefabs also the remainder of the prefabs with fewer than 10 in a category into remainders prefabs. AB (6799) AI (116) Ability (13) Aim (37) BEH (320) BP (140) Base (44) Biome (11) Blood (32) Braziers (11) Buff (478) CHAR (482) CO (275) Castle (27) Chain (1306) Copper (10) Creature (82) Critter (27) Cursed (24) Curtains (11) Curve (15) DG (354) DT (477) Door (11) Dye (49) Dynamic (438) Dynamics (101) EH (28) Ease (17) Elris (21) Equip (56) Faction (32) Fake (21) GM (32) Garden (34) Gloom (42) Gravestone (12) Graveyard (38) Ground (929) Iron (10) Item (1095) Journal (158) Map (157) Micro (87) Milo (21) Music (22) NPCDeadeye (10) Quarry (21) Random (50) Recipe (599) Remainders (635) Resource (138) Rock (11) SCT (39) Servant (70) Set (86) Silver (27) Snapping (38) Snow (21) Spell (288) Stash (17) Stat (39) Station (21) Storm (12) Sun (12) TM (5928) Tech (323) Transmog (32) Trees (349) UC (330) Unholy (13) VIB (96) VM (291) Vampire (125) Water (108) Weapon (43) Wild (21) ZM (10) ",
     "url": "/prefabs/",
     
     "relUrl": "/prefabs/"
-  },"103": {
+  },"108": {
     "doc": "For Users",
     "title": "For users of mods",
-    "content": "This wiki is currently more intended for developers, but here is some FAQ: . | V Rising mods at Thunderstore: https://v-rising.thunderstore.io/ | Discord: V Rising Mod Community Discord | Support: Check out support channels in the discord or in the mod’s readme | . ",
+    "content": ". | V Rising mods at Thunderstore: https://v-rising.thunderstore.io/ | Discord: V Rising Mod Community Discord | Support: Check out support channels in the discord or in the mod’s readme | . ",
     "url": "/user/#for-users-of-mods",
     
     "relUrl": "/user/#for-users-of-mods"
-  },"104": {
+  },"109": {
+    "doc": "For Users",
+    "title": "Installation",
+    "content": ". | Manual BepInEx Installation | Manual Mod Installation | Using Server Mods in-game | . If you wish to play an earlier version of V Rising: Client Rollback . ",
+    "url": "/user/#installation",
+    
+    "relUrl": "/user/#installation"
+  },"110": {
     "doc": "For Users",
     "title": "For Users",
     "content": " ",
     "url": "/user/",
     
     "relUrl": "/user/"
-  },"105": {
+  },"111": {
     "doc": "V Rising Mod Wiki",
     "title": "🧛‍♂️ V Rising Mod Wiki",
     "content": "This is a wiki for V Rising mod developers and users. You can add or edit any of these pages on github. You might want to get started by learning how to build a V Rising mod . Join Discord . ",
     "url": "/#%EF%B8%8F-v-rising-mod-wiki",
     
     "relUrl": "/#️-v-rising-mod-wiki"
-  },"106": {
+  },"112": {
     "doc": "V Rising Mod Wiki",
     "title": "V Rising Mod Wiki",
     "content": "1.0 Compatability . BepInEx and Mods now available on Thunderstore here. Check discord for latest information. ",
     "url": "/",
     
     "relUrl": "/"
-  },"107": {
+  },"113": {
     "doc": "Migration Guide for 1.0 Update",
     "title": "Migrating plugins for 1.0",
     "content": ". | BepInEx: Thunderstore 1.691.3 | Game Libs: nuget | . This version of game libs privately packages the interop changes from above with the already interop’d client assemblies. This avoids the need for the MSBuild task creating the interop and is intended to get developers rolling on release date. ",
     "url": "/dev/migration_guide.html#migrating-plugins-for-10",
     
     "relUrl": "/dev/migration_guide.html#migrating-plugins-for-10"
-  },"108": {
+  },"114": {
     "doc": "Migration Guide for 1.0 Update",
     "title": ".csproj changes",
     "content": "&lt;PackageReference Include=\"BepInEx.Unity.IL2CPP\" Version=\"6.0.0-be.691\" IncludeAssets=\"compile\" /&gt; &lt;PackageReference Include=\"BepInEx.Core\" Version=\"6.0.0-be.691\" IncludeAssets=\"compile\" /&gt; &lt;PackageReference Include=\"VRising.Unhollowed.Client\" Version=\"1.0.*\" /&gt; . ",
     "url": "/dev/migration_guide.html#csproj-changes",
     
     "relUrl": "/dev/migration_guide.html#csproj-changes"
-  },"109": {
+  },"115": {
     "doc": "Migration Guide for 1.0 Update",
     "title": "Using Changes",
     "content": "PrefabGUID calls need using Stunlock.Core; . ",
     "url": "/dev/migration_guide.html#using-changes",
     
     "relUrl": "/dev/migration_guide.html#using-changes"
-  },"110": {
+  },"116": {
     "doc": "Migration Guide for 1.0 Update",
     "title": "Namespace Changes (can find replace)",
     "content": ". | FixedString64 -&gt; FixedString64Bytes | GetExistingSystem -&gt; GetExistingSystemManaged | . ",
     "url": "/dev/migration_guide.html#namespace-changes-can-find-replace",
     
     "relUrl": "/dev/migration_guide.html#namespace-changes-can-find-replace"
-  },"111": {
+  },"117": {
     "doc": "Migration Guide for 1.0 Update",
     "title": "Migration Guide for 1.0 Update",
     "content": " ",
     "url": "/dev/migration_guide.html",
     
     "relUrl": "/dev/migration_guide.html"
-  },"112": {
+  },"118": {
     "doc": "Open Source Mods",
     "title": "Server Mods",
     "content": "| Mod Name | Description | Author | . | AutoBrazier | Automatically turn braziers on/off with day/night cycle | skytech6 | . | AutoCloseDoors | Mod to automatically close doors after a few seconds. | Midon | . | BetterMissions | An VRising mod to do a better control of the servant missions. | Caioreix | . | BloodRefill | A server-side only mod that allows players to refill their blood pool in different ways. | Skies | . | Bloodcraft | Leveling, expertise, legacies, professions, familiars, classes, quests! | zfolmt | . | BloodyBoss | BloodyBoss is a mod for V Rising that allows you to create VBlood world bosses with random rewards that can be set for each of the world bosses. | Trodi | . | BloodyEncounters | A server side mod for V Rising which spawns a random NPC near a random online player at random intervals, and the player wins a random item reward if the NPC is killed within the given time limit. | Trodi | . | BloodyMailBox | The BloodyMailBox mod for VRising allows users to receive messages and receive notifications of new messages even when they are offline. | Trodi | . | BloodyMerchant | BloodyMerchant is a mod designed for V Rising, offering the capability to create custom in-game merchants, adding a layer of dynamic and immersive gameplay. | Trodi | . | BloodyPoint | Mod so that personal or global waypoints can be created. | Trodi | . | BloodyRewards | Rewards System for VRising. | Trodi | . | BloodyShop | Mod to create a store in VRising. | Trodi | . | BloodyWallet | This framework is designed to add a virtual currency to VRising. This opens up a world of possibilities for other mods to integrate with it and serve as a bridge for other mods to use this functionality. | Trodi | . | CoffinSleep | A VRising mod that speeds up time while you sleep in your coffin. | Caioreix | . | CrimsonBanned | Ban Moderation Tool: Chat, Voice, Server | skytech6 | . | CrimsonChatFilter | Automated Moderation for Server Chat | skytech6 | . | CrimsonClans | Extension to Clans: Hearts per Clan and more! | skytech6 | . | CrimsonDice | Dice Chat Roller &amp; Minigames | skytech6 | . | CrimsonDropRate | Modifies the item group drop rate, not the item quantity drop | skytech6 | . | CrimsonFAQ | AutoResponse System | skytech6 | . | CrimsonFAQ | AutoResponse System | skytech6 | . | CrimsonHunt | Create battle-pass like rewards for V Blood hunting | skytech6 | . | CrimsonLog | Logging for Moderation | skytech6 | . | CrimsonMoon | A sacraficial alter to praise the moon! Honor it in return for a blood moon! | skytech6 | . | CrimsonQuest | Questing System | skytech6 | . | Gator_Bounty | Bounty System for VRising | Gator | . | JewelCreator | Server side only mod that allows you to create your own jewels with your chosen skill and skill modifier. | Rianaid | . | KindredArenas | Sets PvP protection buff in designated zones. | odjit | . | KindredCommands | Commands to expand Administration efforts and provide information | odjit | . | KindredLogistics | Inventory management mod. Stashing, craftpulling, finding chests, etc. | Kindred | . | KindredPortals | Expand your V Rising fast travel options. Also Map Icons | odjit | . | KindredSchematics | Commands to build, create, save and load schematics | odjit | . | MuteChatPlayer | Server side only mod which allows server admins to prohibit a specific player from sending messages to the chat. | Rianaid | . | Notify | A mod that notifies when a user connects or disconnects from the server, new user connect from the server, when a player kills a VBlood boss, Message of the day system and auto announce system that runs every certain interval. | Trodi | . | OfflineRaidGuard | Stops offline raiding, scopes to either clan or player requirements | skytech6 | . | Protector | Whitelist based access control for V Rising | GoDMod | . | RaidGuard | Highly discourages teaming during active castle raids with optional alliance features. | zfolmt | . | Sanguis | Reward players for being online with optional daily login bonus! | zfolmt | . | ShardExtraLife | Server side only mod to change shards params like is: durability, time to break, destroy when broken and drop amount. | Rianaid | . | SpiderKiller | Mod that kills spiders in a range around you and your friends. So you don't have to fight those pesky things! | Skies | . | StarterKit | Server side only mod that allows you to issue different starter kits to new vampires. | Rianaid | . | XPRising | Server mod that exchanges item gear level for an XP levelling system | XPRising | . ",
     "url": "/dev/open%20source.html",
     
     "relUrl": "/dev/open%20source.html"
-  },"113": {
+  },"119": {
     "doc": "Open Source Mods",
     "title": "Client Mods",
     "content": "| Mod Name | Description | Author | . | ClientUI | ClientUI to display progress bars for XP mods | XPRising | . | CrimsonFOV | Modifies the client camera field of view | skytech6 | . | Eclipse | Client companion mod for Bloodcraft! | zfolmt | . | RemoveVersionWatermark | Removes version watermark | NodusCursorius | . ",
     "url": "/dev/open%20source.html",
     
     "relUrl": "/dev/open%20source.html"
-  },"114": {
+  },"120": {
     "doc": "Open Source Mods",
     "title": "Frameworks",
     "content": "| Mod Name | Description | Author | . | Bloodstone | Plugin framework and general utilities for V Rising mods. | deca | . | BloodyCore | Bloody.Core a help library for mod development. It must be installed if any mod uses it. | Trodi | . | CrimsonSQL | Framework for Interfacing MySQL | skytech6 | . | VampireCommandFramework | Command framework for developers to easily create universal commands for their plugins. | deca | . | XPShared | Mod to enable communication between XPRising and XPRising.ClientUI | XPRising | . ",
     "url": "/dev/open%20source.html",
     
     "relUrl": "/dev/open%20source.html"
-  },"115": {
+  },"121": {
     "doc": "Open Source Mods",
     "title": "Open Source Mods",
     "content": " ",
     "url": "/dev/open%20source.html",
     
     "relUrl": "/dev/open%20source.html"
-  },"116": {
+  },"122": {
     "doc": "Resources",
     "title": "Resources for Mod Developers",
     "content": " ",
     "url": "/dev/resources.html#resources-for-mod-developers",
     
     "relUrl": "/dev/resources.html#resources-for-mod-developers"
-  },"117": {
+  },"123": {
     "doc": "Resources",
     "title": "Unity Explorer",
     "content": "Unity Explorer is a tool that allows you to dig into the internal structure of the game while it’s running. Thunderstore Version . UnityExplorer IL2CPP at Thunderstore . Building from source . Unity Explorer can be built from source and installed manually: . Prerequisites . | Install BepInEx in VRising | Install the .NET 6 SDK via manual download or winget (winget install Microsoft.DotNet.SDK.6) | . Build Instructions . | Clone https://github.com/kremnev8/UnityExplorer | In a terminal in the UnityExplorer directory, run dotnet build -c BIE_Cpp_CoreCLR .\\src\\UnityExplorer.csproj. This will build the plugin. | Copy all of the files in the Release\\Release\\UnityExplorer.BepInEx.IL2CPP.CoreCLR subdirectory to the BepInEx plugin directory at &lt;steamapps&gt;\\common\\VRising\\BepInEx\\plugins. | The next time you run the game with BepInEx, the Unity Explorer UI will be overlayed in the game. See https://github.com/kremnev8/UnityExplorer for more information about how to use it. | . ",
     "url": "/dev/resources.html#unity-explorer",
     
     "relUrl": "/dev/resources.html#unity-explorer"
-  },"118": {
+  },"124": {
     "doc": "Resources",
     "title": "Debugging with using Visual Studio (untested)",
     "content": ". | Install Visual Studio Tools for Unity using Visual Studio Installer. You can find the component behind Individual components tab. | Edit doorstop_config.ini (either in VRising or VRising_Server folder, depending on what you are modding) and change debugEnabled to true. | Launch the game (or server) with the plugin. | In Visual Studio goto Debug / Attach Unity Debugger, click to Input IP, enter 127.0.0.1:10000 | . ",
     "url": "/dev/resources.html#debugging-with-using-visual-studio-untested",
     
     "relUrl": "/dev/resources.html#debugging-with-using-visual-studio-untested"
-  },"119": {
+  },"125": {
     "doc": "Resources",
     "title": "Cpp2IL Decompiled Method Dumps",
     "content": "Download Cpp2IL-2022.0.5-Windows.exe into an empty folder, then open a command prompt / powershell / etc. in that folder and run this command: . Cpp2IL-2022.0.5-Windows.exe --analysis-level=4 --game-path=\"{PATH\\TO\\YOUR\\GAME\\FOLDER}\" --exe-name=\"Vrising\" --analyze-all --parallel (change {PATH\\TO\\YOUR\\GAME\\FOLDER} to the full path of your game folder). ",
     "url": "/dev/resources.html#cpp2il-decompiled-method-dumps",
     
     "relUrl": "/dev/resources.html#cpp2il-decompiled-method-dumps"
-  },"120": {
+  },"126": {
     "doc": "Resources",
     "title": "Resources",
     "content": " ",
     "url": "/dev/resources.html",
     
     "relUrl": "/dev/resources.html"
-  },"121": {
+  },"127": {
     "doc": "dotnet new vrisingmod",
     "title": "Template",
     "content": "We have a mod template to make getting started easy . Installation . dotnet new --install VRising.ModTemplate . Example usage . dotnet new vrisingmod -n NameOfYourMod --use-vcf --use-bloodstone --description \"Description of your mod\" . This will get you started with a mod named NameOfYourMod, using Bloodstone and VampireCommandFramework that has a sample server command to uncomment. ",
     "url": "/dev/template.html#template",
     
     "relUrl": "/dev/template.html#template"
-  },"122": {
+  },"128": {
     "doc": "dotnet new vrisingmod",
     "title": "dotnet new vrisingmod",
     "content": " ",
     "url": "/dev/template.html",
     
     "relUrl": "/dev/template.html"
+  },"129": {
+    "doc": "Uploading To Thunderstore",
+    "title": "How to Upload Mods to Thunderstore for V Rising",
+    "content": "Uploading your mod to Thunderstore is a simple process, but it requires a few steps to ensure your mod is correctly packaged and ready for the community to enjoy. Before uploading your mod to Thunderstore, ensure you have the following: . | A Thunderstore account | A mod created and tested for V Rising. | A .zip file package with your mod. It must contain an icon image, a readme, and a manifest. A changelog is also strongly recommended. | . ",
+    "url": "/dev/upload_to_thunderstore.html#how-to-upload-mods-to-thunderstore-for-v-rising",
+    
+    "relUrl": "/dev/upload_to_thunderstore.html#how-to-upload-mods-to-thunderstore-for-v-rising"
+  },"130": {
+    "doc": "Uploading To Thunderstore",
+    "title": "Login to Thunderstore",
+    "content": "Thunderstore doesn’t register an account from just an email. You will need either a Discord account, a Github account, or an Overwolf account. Once you authorize a connection to Thunderstore, you will be logged in with an account that shares the same name of the linked account. ",
+    "url": "/dev/upload_to_thunderstore.html#login-to-thunderstore",
+    
+    "relUrl": "/dev/upload_to_thunderstore.html#login-to-thunderstore"
+  },"131": {
+    "doc": "Uploading To Thunderstore",
+    "title": "Pick a Team name",
+    "content": "You can decide what name you upload your mods under via a Team. Team functionality allows you to add other people to update mods associated with the team. Do keep in mind that you cannot alter a team name on a modpage. You can also hand over mods via changing a team’s owner. You cannot disband (delete) a team that has any packages attached. You may also add a donation link to all mods under the team’s name. ",
+    "url": "/dev/upload_to_thunderstore.html#pick-a-team-name",
+    
+    "relUrl": "/dev/upload_to_thunderstore.html#pick-a-team-name"
+  },"132": {
+    "doc": "Uploading To Thunderstore",
+    "title": "Preparing your mod package/zip",
+    "content": "You will need to make a proper package for your mod. Please remember you cannot edit an upload, so check over everything carefully. You would need to release an update to edit any files contained within the zip. Thunderstore Upload Resources: Documentation | Manifest Validator | Readme Preview . Package Format Requirements . | A valid package is a zip file that contains the following files: . | your mod’s .dll | icon.png PNG icon for the mod, must be 256x256 resolution. | README.md Readme in markdown syntax to be rendered on the package’s page. | CHANGELOG.md (optional) Changelog in markdown syntax to be rendered on the package’s page. | manifest.json JSON file with the package’s metadata. Manifest . This contains all the relevant information for your mod. It will determine the details of your mod on it’s page. It is also how you update your mod. | . | . Changelog . While a changelog is not required to upload a mod, it is good practice to have to alert users of what changes, fixes, updates etc are present in the new version. Again, everything is in markdown and you can use the readme previewer to check your changelog as well. ",
+    "url": "/dev/upload_to_thunderstore.html#preparing-your-mod-packagezip",
+    
+    "relUrl": "/dev/upload_to_thunderstore.html#preparing-your-mod-packagezip"
+  },"133": {
+    "doc": "Uploading To Thunderstore",
+    "title": "Upload Your Mod",
+    "content": ". | Navigate to the Upload page | Under the “Submit Package” section, click “Choose or drag file here” to select your .zip file (the mod you created). | Use the Team dropdown to select your team that you wish to link the mod to. | Use the Communities dropdown to select V Rising. | Once the community is chosen, you can use the Categories dropdown to choose the appropriate tags for your mod. | Hit Submit and wait for the upload to complete. The process might take a few seconds to a minute, depending on the file size. | . IF your package is rejected . | Check your manifest over and make sure you have it and other files correctly formatted. | Use the tools like maifest validator and readme preview to check it over. | If you have further issues, seek help on the Thunderstore discord. | . ",
+    "url": "/dev/upload_to_thunderstore.html#upload-your-mod",
+    
+    "relUrl": "/dev/upload_to_thunderstore.html#upload-your-mod"
+  },"134": {
+    "doc": "Uploading To Thunderstore",
+    "title": "Updating your Mod",
+    "content": "To update your mod, you will need to essentially update the zip file and reupload. Make sure to advance the version number in the manifest in order for it to accept a new version. If you wish to update anything in the zip, the mod, README, CHANGELOG, or MANIFEST, you must upload a new version. Basic update syntax: Major.Minor.Patch Bugfixes are a patch, a few new commands are minor, and big overhauls/major feature introductions or compatability updates are major. ",
+    "url": "/dev/upload_to_thunderstore.html#updating-your-mod",
+    
+    "relUrl": "/dev/upload_to_thunderstore.html#updating-your-mod"
+  },"135": {
+    "doc": "Uploading To Thunderstore",
+    "title": "Uploading To Thunderstore",
+    "content": " ",
+    "url": "/dev/upload_to_thunderstore.html",
+    
+    "relUrl": "/dev/upload_to_thunderstore.html"
   }
 }
