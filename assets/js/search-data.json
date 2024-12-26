@@ -834,14 +834,14 @@
   },"119": {
     "doc": "Open Source Mods",
     "title": "Client Mods",
-    "content": "| Mod Name | Description | Author | . ",
+    "content": "| Mod Name | Description | Author | . | ClientUI | ClientUI to display progress bars for XP mods | XPRising | . | Eclipse | Client companion mod for Bloodcraft! | zfolmt | . | CrimsonFOV | Modifies the client camera field of view | skytech6 | . | RemoveVersionWatermark | Removes version watermark | NodusCursorius | . ",
     "url": "/dev/open%20source.html",
     
     "relUrl": "/dev/open%20source.html"
   },"120": {
     "doc": "Open Source Mods",
     "title": "Frameworks",
-    "content": "| Mod Name | Description | Author | . ",
+    "content": "| Mod Name | Description | Author | . | CrimsonSQL | Framework for Interfacing MySQL | skytech6 | . | XPShared | Mod to enable communication between XPRising and XPRising.ClientUI | XPRising | . | BloodyCore | Bloody.Core a help library for mod development. It must be installed if any mod uses it. | Trodi | . | Bloodstone | Plugin framework and general utilities for V Rising mods. | deca | . | VampireCommandFramework | Command framework for developers to easily create universal commands for their plugins. | deca | . ",
     "url": "/dev/open%20source.html",
     
     "relUrl": "/dev/open%20source.html"
