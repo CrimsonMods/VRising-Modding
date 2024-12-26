@@ -848,7 +848,7 @@
   },"121": {
     "doc": "Open Source Mods",
     "title": "Open Source Mods",
-    "content": " ",
+    "content": "[//] # To add a mod to these lists requires two steps. [//] # Add the name of the mod to the assign list in the appropriate Lists below. [//] # Include an updated OpenSourceMods.json file in the _data folder of this site. [//] # The OpenSourceMods.json file can be generated with the Thunderstore API (trimming unneeded information is recommended for file size) [//] # https://thunderstore.io/c/v-rising/api/v1/package/ . ",
     "url": "/dev/open%20source.html",
     
     "relUrl": "/dev/open%20source.html"
