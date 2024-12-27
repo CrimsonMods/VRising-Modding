@@ -1,7 +1,7 @@
 ---
 title: Part 1 - Setup
 parent: Sample Introduction
-nav_order: 1
+nav_order: 2
 ---
 
 # Part 1: Setup

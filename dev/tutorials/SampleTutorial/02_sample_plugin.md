@@ -1,7 +1,7 @@
 ---
 title: Part 2 - What is Plugin?
 parent: Sample Introduction
-nav_order: 2
+nav_order: 3
 ---
 
 # Part 2: What is Plugin?
