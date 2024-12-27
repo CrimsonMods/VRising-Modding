@@ -12,3 +12,4 @@ Hey! This is a short introduction to modding V Rising. We will be exploring a di
 
 If you want to see what a potential end result of the tutorial would look like check out [CrimsonDice](https://thunderstore.io/c/v-rising/p/skytech6/CrimsonDice/) that I created alongside this tutorial. 
 
+{:toc}
