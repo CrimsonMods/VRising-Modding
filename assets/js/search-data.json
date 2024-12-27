@@ -896,54 +896,61 @@
     "relUrl": "/dev/template.html#template"
   },"128": {
     "doc": "dotnet new vrisingmod",
+    "title": "Template Plus",
+    "content": "Alternatively, there is also an extended (and opinionated) template available. Installation . dotnet new --install VRising.ModTemplatePlus . Example usage . dotnet new vrisingmodplus -n NameOfYourMod -how -desc \"Description of your mod\" . -how A simple example mod pre-built and ready to build with how-to tips on how to get started making mods -desc A description of your mod. -bloodstone Include Bloodstone framework -bloodycore Include Bloody.Core framework -vamp Include VAMP framework . Plus always includes VampireCommandFramework . Why Plus? . Plus is created by CrimsonMods, and is opinionated about how to structure mods and what should be included in every V Rising modding project. As such, this template was created as a quicker setup for those that always use X framework or always include Core, Settings, ECSExtensions patterns. And as an added bonus, it was created to include a simple example mod that can be used as a starting point for those that want to get started with modding. ",
+    "url": "/dev/template.html#template-plus",
+    
+    "relUrl": "/dev/template.html#template-plus"
+  },"129": {
+    "doc": "dotnet new vrisingmod",
     "title": "dotnet new vrisingmod",
     "content": " ",
     "url": "/dev/template.html",
     
     "relUrl": "/dev/template.html"
-  },"129": {
+  },"130": {
     "doc": "Uploading To Thunderstore",
     "title": "How to Upload Mods to Thunderstore for V Rising",
     "content": "Uploading your mod to Thunderstore is a simple process, but it requires a few steps to ensure your mod is correctly packaged and ready for the community to enjoy. Before uploading your mod to Thunderstore, ensure you have the following: . | A Thunderstore account | A mod created and tested for V Rising. | A .zip file package with your mod. It must contain an icon image, a readme, and a manifest. A changelog is also strongly recommended. | . ",
     "url": "/dev/upload_to_thunderstore.html#how-to-upload-mods-to-thunderstore-for-v-rising",
     
     "relUrl": "/dev/upload_to_thunderstore.html#how-to-upload-mods-to-thunderstore-for-v-rising"
-  },"130": {
+  },"131": {
     "doc": "Uploading To Thunderstore",
     "title": "Login to Thunderstore",
     "content": "Thunderstore doesn’t register an account from just an email. You will need either a Discord account, a Github account, or an Overwolf account. Once you authorize a connection to Thunderstore, you will be logged in with an account that shares the same name of the linked account. ",
     "url": "/dev/upload_to_thunderstore.html#login-to-thunderstore",
     
     "relUrl": "/dev/upload_to_thunderstore.html#login-to-thunderstore"
-  },"131": {
+  },"132": {
     "doc": "Uploading To Thunderstore",
     "title": "Pick a Team name",
     "content": "You can decide what name you upload your mods under via a Team. Team functionality allows you to add other people to update mods associated with the team. Do keep in mind that you cannot alter a team name on a modpage. You can also hand over mods via changing a team’s owner. You cannot disband (delete) a team that has any packages attached. You may also add a donation link to all mods under the team’s name. ",
     "url": "/dev/upload_to_thunderstore.html#pick-a-team-name",
     
     "relUrl": "/dev/upload_to_thunderstore.html#pick-a-team-name"
-  },"132": {
+  },"133": {
     "doc": "Uploading To Thunderstore",
     "title": "Preparing your mod package/zip",
     "content": "You will need to make a proper package for your mod. Please remember you cannot edit an upload, so check over everything carefully. You would need to release an update to edit any files contained within the zip. Thunderstore Upload Resources: Documentation | Manifest Validator | Readme Preview . Package Format Requirements . | A valid package is a zip file that contains the following files: . | your mod’s .dll | icon.png PNG icon for the mod, must be 256x256 resolution. | README.md Readme in markdown syntax to be rendered on the package’s page. | CHANGELOG.md (optional) Changelog in markdown syntax to be rendered on the package’s page. | manifest.json JSON file with the package’s metadata. Manifest . This contains all the relevant information for your mod. It will determine the details of your mod on it’s page. It is also how you update your mod. | . | . Changelog . While a changelog is not required to upload a mod, it is good practice to have to alert users of what changes, fixes, updates etc are present in the new version. Again, everything is in markdown and you can use the readme previewer to check your changelog as well. ",
     "url": "/dev/upload_to_thunderstore.html#preparing-your-mod-packagezip",
     
     "relUrl": "/dev/upload_to_thunderstore.html#preparing-your-mod-packagezip"
-  },"133": {
+  },"134": {
     "doc": "Uploading To Thunderstore",
     "title": "Upload Your Mod",
     "content": ". | Navigate to the Upload page | Under the “Submit Package” section, click “Choose or drag file here” to select your .zip file (the mod you created). | Use the Team dropdown to select your team that you wish to link the mod to. | Use the Communities dropdown to select V Rising. | Once the community is chosen, you can use the Categories dropdown to choose the appropriate tags for your mod. | Hit Submit and wait for the upload to complete. The process might take a few seconds to a minute, depending on the file size. | . IF your package is rejected . | Check your manifest over and make sure you have it and other files correctly formatted. | Use the tools like maifest validator and readme preview to check it over. | If you have further issues, seek help on the Thunderstore discord. | . ",
     "url": "/dev/upload_to_thunderstore.html#upload-your-mod",
     
     "relUrl": "/dev/upload_to_thunderstore.html#upload-your-mod"
-  },"134": {
+  },"135": {
     "doc": "Uploading To Thunderstore",
     "title": "Updating your Mod",
     "content": "To update your mod, you will need to essentially update the zip file and reupload. Make sure to advance the version number in the manifest in order for it to accept a new version. If you wish to update anything in the zip, the mod, README, CHANGELOG, or MANIFEST, you must upload a new version. Basic update syntax: Major.Minor.Patch Bugfixes are a patch, a few new commands are minor, and big overhauls/major feature introductions or compatability updates are major. ",
     "url": "/dev/upload_to_thunderstore.html#updating-your-mod",
     
     "relUrl": "/dev/upload_to_thunderstore.html#updating-your-mod"
-  },"135": {
+  },"136": {
     "doc": "Uploading To Thunderstore",
     "title": "Uploading To Thunderstore",
     "content": " ",
