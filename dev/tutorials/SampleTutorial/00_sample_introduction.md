@@ -2,6 +2,7 @@
 title: Sample Introduction
 parent: Tutorials
 has_children: true
+nav_order: 1
 ---
 
 # Introduction & Setup

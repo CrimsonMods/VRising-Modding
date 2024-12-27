@@ -1,6 +1,7 @@
 ---
 has_children: true
 title: Tutorials
+parent: For Developers
 ---
 
 ## Tutorials
