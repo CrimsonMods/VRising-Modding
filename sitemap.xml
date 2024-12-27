@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>https://vrising.wiki/dev/tutorials/SampleTutorial/00_sample_introduction.html</loc>
-</url>
-<url>
 <loc>https://vrising.wiki/dev/tutorials/SampleTutorial/01_sample_setup.html</loc>
 </url>
 <url>
@@ -296,6 +293,9 @@
 </url>
 <url>
 <loc>https://vrising.wiki/dev/template.html</loc>
+</url>
+<url>
+<loc>https://vrising.wiki/dev/tutorials/tutorial_sample.html</loc>
 </url>
 <url>
 <loc>https://vrising.wiki/dev/upload_to_thunderstore.html</loc>
