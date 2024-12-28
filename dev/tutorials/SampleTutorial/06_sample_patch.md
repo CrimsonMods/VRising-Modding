@@ -52,49 +52,49 @@ And because this is a one-shot patch, we need to unpatch it after we have called
 
 4. Finalizer - Handles exceptions in the original method
    
-  `[HarmonyFinalizer]`
+    `[HarmonyFinalizer]`
    
-  These patches run in a finally block and are useful for cleanup or exception handling.
+    These patches run in a finally block and are useful for cleanup or exception handling.
    
-  Example:
-  ```csharp
-      [HarmonyPatch(typeof(GameClass), "MethodName")]
-      public static class FinalizerExample
-      {
-          [HarmonyFinalizer]
-          public static Exception HandleException(Exception __exception)
-          {
-              if (__exception != null)
-              {
-                  Plugin.Logger.LogError($"An error occurred: {__exception.Message}");
-                  return null; // Suppress the exception
-              }
-              return __exception; // Let the exception propagate
-          }
-      }
-    ```
+    Example:
+```csharp
+    [HarmonyPatch(typeof(GameClass), "MethodName")]
+    public static class FinalizerExample
+    {
+        [HarmonyFinalizer]
+        public static Exception HandleException(Exception __exception)
+        {
+            if (__exception != null)
+            {
+                Plugin.Logger.LogError($"An error occurred: {__exception.Message}");
+                return null; // Suppress the exception
+            }
+            return __exception; // Let the exception propagate
+        }
+    }
+```
       
    
 5. Reverse Patch - Allows calling the original method implementation
    
     `[HarmonyReversePatch]`
    
-  These patches let you call private/internal methods of the original class.
+    These patches let you call private/internal methods of the original class.
    
     Example:
-    ```csharp
-      [HarmonyPatch(typeof(OriginalClass))]
-      public static class ReversePatchExample
-      {
-          [HarmonyReversePatch]
-          [HarmonyPatch("PrivateMethod")]
-          public static string CallPrivateMethod(object instance, string parameter)
-          {
-              // This is a stub - Harmony will implement the actual method
-              throw new NotImplementedException();
-          }
-      }
-      ```
+```csharp
+    [HarmonyPatch(typeof(OriginalClass))]
+    public static class ReversePatchExample
+    {
+        [HarmonyReversePatch]
+        [HarmonyPatch("PrivateMethod")]
+        public static string CallPrivateMethod(object instance, string parameter)
+        {
+            // This is a stub - Harmony will implement the actual method
+            throw new NotImplementedException();
+        }
+    }
+```
 
 You can learn more about Patching [here](https://harmony.pardeike.net/articles/patching.html).
 
@@ -103,9 +103,9 @@ So now you're probably wondering how to patch other systems in the game. Well, t
 
 Here are some different examples of patching systems in V Rising.
 
-[CrimsonChatFilter - ChatMessageSystem](https://github.com/CrimsonMods/CrimsonChatFilter/blob/master/Hooks/ChatHook.cs)
-[CrimsonMoon - DropItemThrowSystem](https://github.com/CrimsonMods/CrimsonMoon/blob/master/Hooks/Sacrafice.cs)
-[KindredCommands - ServerBootstrapSystem](https://github.com/Odjit/KindredCommands/blob/main/Patches/RevealMapPatches.cs)
-[OfflineRaidGuard - DealDamageSystem](https://github.com/CrimsonMods/OfflineRaidGuard/blob/master/Hooks/StatChange.cs)
+- [CrimsonChatFilter - ChatMessageSystem](https://github.com/CrimsonMods/CrimsonChatFilter/blob/master/Hooks/ChatHook.cs)
+- [CrimsonMoon - DropItemThrowSystem](https://github.com/CrimsonMods/CrimsonMoon/blob/master/Hooks/Sacrafice.cs)
+- [KindredCommands - ServerBootstrapSystem](https://github.com/Odjit/KindredCommands/blob/main/Patches/RevealMapPatches.cs)
+- [OfflineRaidGuard - DealDamageSystem](https://github.com/CrimsonMods/OfflineRaidGuard/blob/master/Hooks/StatChange.cs)
 
 Next [What are Services?](07_sample_services.md)
