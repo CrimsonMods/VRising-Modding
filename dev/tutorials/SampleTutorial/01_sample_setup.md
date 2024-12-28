@@ -51,4 +51,4 @@ You should now see a file titled `DiceRoller.sln`. Right click that and select O
 
 That will load up the IDE with the DiceRoller project. Make your way over to the Plugin.cs file and we'll begin the next Part fo the tutorial there. 
 
-Next [Part 2: What is Plugin?](01_sample_plugin.md)
+Next [Part 2: What is Plugin?](02_sample_plugin.md)

@@ -107,4 +107,4 @@ public override bool Unload()
 ```
 This is rather straightforward. We unregister our commands from VCF (VampireCommandFramework) and unpatch from Harmony. Then we return true to tell BepInEx that we've succeeded in unloading. 
 
-Next [Part 2: What are ECSExtensions?](02_sample_ecs.md)
+Next [Part 2: What are ECSExtensions?](03_sample_ecs.md)
